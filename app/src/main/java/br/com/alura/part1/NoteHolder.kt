@@ -6,7 +6,11 @@ import androidx.recyclerview.widget.RecyclerView
 
 class NoteHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
 
-    fun bind(note: String) {
-        itemView.findViewById<TextView>(R.id.txNote).text = note
+    fun bind(note: Note) {
+        itemView.findViewById<TextView>(R.id.txTitle).text = note.title
+        itemView.findViewById<TextView>(R.id.txDescription).text = note.description
+        itemView.findViewById<TextView>(R.id.txDate).text = note.date
+        itemView.findViewById<TextView>(R.id.txUser).text = note.user
     }
 }
+

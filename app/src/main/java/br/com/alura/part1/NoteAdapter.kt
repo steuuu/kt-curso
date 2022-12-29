@@ -6,10 +6,10 @@ import androidx.recyclerview.widget.RecyclerView
 
 class NoteAdapter : RecyclerView.Adapter<NoteHolder>() {
 
-    var list = ArrayList<String>()
+    var list = ArrayList<Note>()
 
-    fun addList(notes: List<String>) {
-        list = notes as ArrayList
+    fun addList(notes: ArrayList<Note>) {
+        list = notes
         notifyDataSetChanged()
     }
 
