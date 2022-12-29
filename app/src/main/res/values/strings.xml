@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">4Bus</string>
+    <string name="message">Ola</string>
+    <string name="B1">B1</string>
+    <string name="B2">B2</string>
+    <string name="basic_alert_dialog">olá</string>
+    <string name="Alert">Alerta</string>
+    <string name="no">no</string>
+    <string name="yes">yes</string>
+</resources>
